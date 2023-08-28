@@ -1,7 +1,7 @@
 import mysql.connector
 Mydb= mysql.connector.connect(host='localhost',
                         user='root',
-                        password='1234',
+                        password=password,
                         database='Bank_management',
                         auth_plugin= "caching_sha2_password")
 def OpenAcc():
